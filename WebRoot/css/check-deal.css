@@ -1,0 +1,121 @@
+    .top-color {
+        position: relative;
+        font: 400 25px/55px "consolas";
+        padding-left: 200px;
+        color: white;
+        height: 55px;
+        background: url(../images/pay/seckill_hd.png) no-repeat;
+        background-color: #CF0414;
+    }
+    .top-color a{
+        color: white;
+    }
+    .top-color-one {
+        position: absolute;
+        right: 350px;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .top-color-two{
+        position: absolute;
+        right: 180px;
+        font-size: 18px;
+        line-height: 65px;
+    }
+
+    .check-deal {
+        padding: 0 110px;
+        background-color: #eee;
+    }
+    .check-deal span a {
+        font: 400 14px/25px "微软雅黑";
+        float: right;
+        color: #B1191A !important;
+    }
+    .deal-select {
+        padding: 10px 0;
+    }
+    .deal-select select {
+        text-align: center;
+        font-size: 16px;
+    }
+    .deal-select select option {
+        width: 70px;
+        height: 30px;
+    }
+
+    .deal-table {
+        position: relative;
+    }
+    .deal-table i {
+        font: 400 14px/20px "microsoft yahei";
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        height: 20px;
+        width: 100px;
+    }
+    .deal-i-1 {
+        left: 20px;
+    }
+    .deal-i-2 {
+        left: 150px;
+    }
+    .deal-i-3 {
+         left: 300px;
+     }
+    .deal-i-4 {
+        left: 450px;
+    }
+    .deal-i-5 {
+         left: 600px;
+     }
+    .deal-i-6 {
+          left: 750px;
+    }
+     .deal-i-7 {
+          left: 900px;
+    }
+
+    table tbody tr {
+        position: relative;
+        width: 990px;
+        height: 140px;
+    }
+    table tr td {
+        position: absolute;
+        top: 50px;
+        height: 140px;
+        font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    }
+    .deal-table table tbody tr td:nth-child(1){
+        width: 100px;
+        left: 28px;
+    }
+    .deal-table table tbody tr td:nth-child(2){
+        width: 200px;
+        left: 115px;
+    }
+    .deal-table table tbody tr td:nth-child(3) {
+        width: 100px;
+        left: 300px;
+    }
+    .deal-table table tbody tr td:nth-child(4){
+        width: 100px;
+        left: 450px;
+    }
+    .deal-table table tbody tr td:nth-child(5){
+        width: 100px;
+        left: 610px;
+    }
+    .deal-table table tbody tr td:nth-child(6){
+        width: 100px;
+        left: 740px;
+    }
+    .deal-table table tbody tr td:nth-child(7){
+        width: 100px;
+        left: 920px;
+    }
+
+
+

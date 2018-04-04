@@ -1,0 +1,77 @@
+	.fix-div {
+		position: fixed;
+		right: 0;
+		top: 0;
+		width: 6px;
+		height: 660px;
+		background: #7a6e6e; 
+		z-index: 100;
+		display: block;
+	}
+	.fix-div i {
+		display: block;
+		position: fixed;
+		top: 300px;
+		right: 6px;
+		width: 35px;
+		height: 35px;
+		z-index: 100;
+		border-radius: 5px;
+	}
+	.fix-div .fix-div-li01 {
+		top: 300px;
+		background: #7a6e6e url(../images/toolbars-png.png) no-repeat -86px -175px;
+	}
+	.fix-div .fix-div-li02 {
+		top: 337px;
+		background:#7a6e6e url(../images/toolbars-png.png) no-repeat -49px 0;
+	}
+	.fix-div .fix-div-li03 {
+		top: 374px;
+		background:#7a6e6e url(../images/toolbars-png.png) no-repeat -49px -49px;
+	}
+	.fix-div .fix-div-li04 {
+		top: 411px;
+		background: #7a6e6e url(../images/toolbars-png.png) no-repeat -188px -151px;
+	}
+	.fix-div .fix-div-white1{
+		display: block;
+		position: fixed;
+		top:335px;
+		right: 6px;
+		width:35px;
+		height:2px;
+		background-color: white;
+	}
+	.fix-div .fix-div-white2{
+		display: block;
+		position: fixed;
+		top:372px;
+		right: 6px;
+		width:35px;
+		height:2px;
+	}
+	.fix-div .fix-div-white2{
+		display: block;
+		position: fixed;
+		top:409px;
+		right: 6px;
+		width:35px;
+		height:2px;
+	}
+	#msg{
+		position:fixed; 
+		top:337px; 
+		right:35px; 
+		z-index:10000;
+		width:1px; 
+		height:52px; 
+		line-height:52px;
+		 font-size:20px; 
+		 text-align:center;
+		  color:#fff; 
+		  background:#360; 
+		  display:none
+	  }
+	  .u-flyer{display: block;width: 50px;height: 50px;border-radius: 50px;position: fixed;z-index: 9999;}
+	  

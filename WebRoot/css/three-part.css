@@ -1,0 +1,272 @@
+
+    /*公共部分 start-----------------------------------------------------------------公共部分 start*/
+    .three-part {
+        margin-top: 20px;
+    }
+    .first,.second,.third {
+        width: 32%;
+        height: 445px;
+        float: left;
+        border: 1px solid #ccc;
+    }
+    .first,.second {
+        margin-right: 17px;
+    }
+    .first-top, .second-top, .third-top {
+        height: 55px;
+    }
+
+    .first-top h1,.second-top h1,.third-top h1 {
+        font: 400 24px/55px "microsoft yahei";
+        color: #fff;
+        padding-left: 30px;
+        display: inline-block;
+    }
+
+    .first-top a,.second-top a,.third-top a {
+        font: 200 13px/55px "simsun";
+        padding-right: 40px;
+        color: #fff;
+        float: right;
+    }
+    .first-top i,.second-top i,.third-top i {
+        position: absolute;
+        top: 17px;
+        right: 20px;
+        width: 15px;
+        height: 16px;
+        background: url(../images/list/sprite_rank.png) no-repeat -154px -40px;
+    }
+
+    .first-bottom,.second-bottom,.third-bottom {
+        width: 390px;
+        height: 395px;
+    }
+    
+    /*公共部分 end----------------------------------------------------------------公共部分 end*/
+
+
+
+
+    /*first部分 start------------------------------------------------------------------first部分  tart*/
+    .first-top {
+        background: url(../images/list/first-bg.jpg) no-repeat;
+        position: relative;
+    }
+
+    .first-bottom {
+        margin: 10px 0 20px;
+        padding: 0 11px;
+    }
+    .first-bottom div {
+        width: 175px;
+        height: 120px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .a {
+        position: relative;
+    }
+
+    .first-bottom-img {
+        position: absolute;
+        top: 30px;
+        left: 90px;
+    }
+   .first-bottom-img div {
+        width: 75px;
+        height: 75px;
+        background:  no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .first-bottom-img2 div {
+        /* background: url(${first_hot_imgs[1][0] }) no-repeat; */
+    }
+    .first-bottom-img3 div {
+       /*  background: url(${first_hot_imgs[2][0]}) no-repeat; */
+    }
+    .first-bottom-img4 div {
+        /* background: url(${first_hot_imgs[3][0]}) no-repeat; */
+    }
+    .first-bottom-img5 div {
+        /* background: url(${first_hot_imgs[4][0]}) no-repeat; */
+    }
+    .first-bottom-img6 div {
+        /* background: url(${first_hot_imgs[5][0]}) no-repeat; */
+    }
+    .first-bottom-brand {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        display: inline-block;
+        width: 70px;
+        color: #4998A1;
+        font: 400 14px "microsoft yahei";
+    }
+    .border {
+        border-right: 1px solid #ccc;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #ccc;
+    }
+    /*first部分 end-----------------------------------------------------------------first部分 end*/
+
+
+
+
+    /*second部分 start------------------------------------------------------------------second部分 tart*/
+    .second-top {
+        background: url(../images/list/second-bg.jpg) no-repeat;
+        position: relative;
+    }
+    .second-bottom {
+        width: 352px;
+        padding: 0 19px;
+        position: relative;
+    }
+    .second-bottom-one {
+        width: 390px;
+        height: 180px;
+        padding-top: 20px;
+    }
+    .second-bottom-one h1, .second-bottom-two h1 {
+        font: 400 14px "黑体";
+        margin-bottom: 10px;
+    }
+    .second-bottom-one-img a, .second-bottom-one-img a{
+        margin-right: 5px;
+    }
+    .second-bottom-one-img a div {
+        display: inline-block;
+        width: 110px;
+        height: 110px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .list {
+        position: absolute;
+        display: block;
+        top: 350px;
+        left: 195px;
+        margin-left: -25px;
+    }
+    .list li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        background-color: #aaa;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .list .current {
+        background-color: red;
+    }
+    .list-arrow-left, .list-arrow-right {
+        position: absolute;
+        top: 50%;
+        height: 30px;
+        margin-top: -32px;
+        width: 15px;
+        text-align: center;
+        font: 400 15px/30px "simsun";
+        background-color: #ccc;
+    }
+    .list-arrow {
+        background-color: blue;
+    }
+    .list-arrow-left {
+        left: 2px;
+    }
+    .list-arrow-right {
+        right: 2px;
+    }
+    /*second部分 end-----------------------------------------------------------------second部分  end*/
+
+
+
+
+    /*third部分 start-----------------------------------------------------------------third部分 start*/
+    .third-top {
+        background: url(../images/list/third-bg.jpg) no-repeat;
+        position: relative;
+    }
+
+    .third-bottom ul li {
+        font: 400 14px/30px "黑体";
+        width: 19%;
+        text-align: center;
+        color: #666666;
+        list-style: none;
+        display: inline;
+        border-bottom: 1px solid #ccc;
+
+    }
+    .third-border-right {
+        border-right: 1px solid #ccc;
+    }
+    .br {
+        display: inline-block;
+    }
+    .br {
+        width: 100%;
+    }
+    .table {
+        position: relative;
+        margin-top: 10px;
+        height: 165px;
+        width: 123px;
+        text-align: center;
+    }
+    .padding-left {
+        padding-left: 10px;
+    }
+    .table a span {
+        display: inline-block;
+        width: 100px;
+    }
+    .third-bottom ul .third-current {
+        border-bottom: 2px solid red;
+    }
+    .border-right {
+        border-right: 1px solid #ccc;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #ccc;
+    }
+    .rank {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 30px;
+        height: 40px;
+        overflow: hidden;
+        font: 700 30px/40px "simsun";
+        color: #fff;
+        background: url(../images/list/sprite_rank.png) no-repeat;
+    }
+    .rank1 {
+        background-position: -104px -40px;
+    }
+    .rank3 {
+         background-position: -54px -40px;
+     }
+    .rank2 {
+          background-position: -50px -100px;
+      }
+    .rank4 {
+           background-position: -0px -100px;
+       }
+    .rank5 {
+            background-position: -100px -100px;
+        }
+    .rank6 {
+             background-position: -100px -100px;
+         }
+    /*third部分 end---------------------------------------------------------------------third部分 end*/
+
+
+
+
+

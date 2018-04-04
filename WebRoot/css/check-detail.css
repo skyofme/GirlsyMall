@@ -1,0 +1,114 @@
+    .top-color {
+        position: relative;
+        font: 400 25px/55px "consolas";
+        padding-left: 200px;
+        color: white;
+        height: 55px;
+        background: url(../images/pay/seckill_hd.png) no-repeat;
+        background-color: #CF0414;
+    }
+    
+    .top-color a{
+        color: white;
+    }
+    .top-color-one {
+        position: absolute;
+        right: 350px;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .top-color-two{
+        position: absolute;
+        right: 180px;
+        font-size: 18px;
+        line-height: 65px;
+    }
+
+    .check-deal {
+        padding: 0 110px;
+        background-color: #eee ;
+		width:1000px;
+		height:500px; 
+    }
+    .check-deal span a {
+        font: 400 14px/25px "微软雅黑";
+        float: right;
+        color: #B1191A !important;
+    }
+    .deal-select {
+        padding: 10px 0;
+    }
+    .deal-select select {
+        text-align: center;
+        font-size: 16px;
+    }
+    .deal-select select option {
+        width: 70px;
+        height: 30px;
+    }
+
+    .deal-table {
+        position: relative;
+    }
+    .deal-table i {
+        font: 400 14px/20px "microsoft yahei";
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        height: 100px;
+        width: 200px;
+    }
+    .deal-i-1 {
+        left: 20px;
+    }
+    .deal-i-2 {
+        left: 200px;
+    }
+    .deal-i-3 {
+         left: 400px;
+     }
+    .deal-i-4 {
+        left: 700px;
+    }
+    .deal-i-5 {
+         left: 20px;
+         margin-top:100px;
+     }
+    .deal-i-6 {
+          left: 200px;
+          margin-top:100px;
+         
+    }
+    .deal-i-7 {
+          left: 400px;
+          margin-top:100px;
+         
+    }
+    .deal-i-8 {
+          left: 700px;
+          margin-top:100px;
+    }
+      .deal-table2 i {
+        font: 400 14px/20px "microsoft yahei";
+        position: absolute;
+        display: inline-block;
+        top: 250px;
+        height: 20px;
+        width: 100px;
+    }
+     .deal2-i-1 {
+        left: 400px;
+    }
+     .deal2-i-2 {
+        left: 750px;
+    }
+    .goodstable{
+    	position: absolute;
+    	top:300px;
+    	left:360px;
+    	text-align: center;
+    }
+   
+   
+
+
